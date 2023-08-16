@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    text-align: center;
+    
+    
+}
+
+/* .navbar{
+    transition: all 1s;
+} */
+.navbar-scrolled{
+    background-color: rgb(240, 209, 209);
+    
+}
+.nav-link{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.navbar-brand{
+    
+    font-weight: bolder;
+    font-size: 30px;
+}
+.line{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #c5bcbc;
+    color: rgb(249, 185, 66);
+}
+.hed{
+    text-align: center;
+    margin-top: 5rem;
+    font-family: cursive;
+    font-weight: lighter;
+    color: rgb(4, 77, 77);
+    font-size: 3rem;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+    color: rgb(255, 191, 118);
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font: bolder;
+    color: rgb(255, 85, 0);
+    
+}
+
+label{
+    color: rgb(255, 85, 0);
+    font-size: 1.1rem;
+
+}
+.div1{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.div2{
+    width: 50%;
+    float: right;
+
+}
+.inp{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+input[type="text"]{
+    border: 2px solid grey; 
+}
+textarea{
+    border: 2px solid grey;
+    height: 125px;
+    
+
+}
+.btn{
+    background-color: bisque;
+   font-size: larger;
+   font-weight: bolder;
+}
